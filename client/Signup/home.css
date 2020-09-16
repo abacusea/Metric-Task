@@ -1,0 +1,172 @@
+
+*{
+	
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to right,#7ed56f, #28b485);
+}
+
+header{
+	width:100%;
+	background-color: rgba(241, 244, 206 ,.4);
+	padding: 20px;
+	position: relative;
+	top: 0;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+
+header a{
+	text-decoration: none;
+	margin-right: 50px;
+	letter-spacing: 1px;
+	color: rgba(0,0,0,0.719);
+	font-weight: 900px;
+}
+
+
+
+/*Upload Button*/
+
+.button_container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.btn-upload{
+	height: 40px;
+	width: 200px;
+	border-radius: 50px;
+}
+
+/*-------------------------*/
+
+
+
+
+
+
+.card-section{
+	
+	
+	position: relative;
+	margin: auto;
+	
+	left: 40%;
+
+}
+
+
+.card{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	
+}
+
+.file{
+    font-size: large;
+    font-weight: 900;
+}
+
+.btn-dwnld{
+	text-decoration: none;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: x-large;
+    color: ivory;
+
+}
+
+
+/*
+.card-container:not(:last-child){
+		margin-bottom: 10px;
+
+}
+
+.card-container:hover{
+	box-shadow: 0 15px 40px rgba(0,0,0, 0.45);
+}
+
+.card{
+	height: 200px;
+	width: 350px;
+	background-color: white; 
+	border-radius: 3px;
+	
+	text-align: center;
+}
+
+h2{
+	padding-top: 10px; 
+}
+
+button{
+	margin-top: 30px;
+}*/
+
+
+
+/*Search-Bar*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.pic{
+	height: 25px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #055d2e;
+  border-right: none;
+  padding: 5px;
+  height: 45px;
+  border-radius: 50px;
+  outline: none;
+  color: black;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  margin-top: auto;
+  width: 40px;
+  height: 45px;
+  border: 1px solid #055d2e;
+  background: #055d2e;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: relative;
+  top: 20%;
+  left: 35%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+ 
+}
